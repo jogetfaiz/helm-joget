@@ -7,7 +7,7 @@ replicaCount: 1
 pvc:
   accessMode: ReadWriteOnce
   storage: 1Gi
-  storageClassName: "local-path"
+  storageClassName: ""
 
 image:
   repository: jogetworkflow/joget-dx8-tomcat9

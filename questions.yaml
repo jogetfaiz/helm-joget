@@ -9,24 +9,6 @@ questions:
   label: Ingress Host
   type: string
   group: "Network Settings"
-- variable: image.repository
-  default: "jogetworkflow/joget-dx8-tomcat9"
-  description: "Container image repository."
-  label: Container Image
-  type: string
-  group: "Deployment Settings"
-- variable: image.tag
-  default: "latest"
-  description: "Container image tag."
-  label: Container Tag
-  type: string
-  group: "Deployment Settings"
-- variable: image.volumePath
-  default: "/opt/joget/wflow"
-  description: "Shared volume path."
-  label: Shared Volume Path
-  type: string
-  group: "Deployment Settings"
 - variable: pvc.storageClass
   default: ""
   description: "Storage class for Persistent Volume."
@@ -48,3 +30,21 @@ questions:
   label: Storage Allocation
   type: string
   group: "Storage Settings"
+- variable: image.repository
+  default: "jogetworkflow/joget-dx8-tomcat9"
+  description: "Container image repository."
+  label: Container Image
+  type: string
+  group: "Deployment Settings"
+- variable: image.tag
+  default: "latest"
+  description: "Container image tag."
+  label: Container Tag
+  type: string
+  group: "Deployment Settings"
+- variable: image.volumePath
+  default: "/opt/joget/wflow"
+  description: "Shared volume path."
+  label: Shared Volume Path
+  type: string
+  group: "Deployment Settings"
