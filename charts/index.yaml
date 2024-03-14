@@ -7,9 +7,9 @@ entries:
       category: PaaS
     apiVersion: v2
     appVersion: 8.0.11
-    created: "2024-03-14T10:46:35.391548674+08:00"
+    created: "2024-03-14T11:34:39.574737104+08:00"
     description: Open source no-code/low-code application platform
-    digest: 852c78da42cb327ef515317011eb5ae79279aaee1ea5a3080274f7e49895a74a
+    digest: 5f198fdc3a0f310154e430dd312ccbf4f367511054e13d2c3c6d19b51775198d
     home: https://www.joget.com
     icon: https://www.joget.org/wp-content/uploads/2023/07/Joget_logo_Vertical_Green_Symbol.png
     keywords:
@@ -22,4 +22,4 @@ entries:
     urls:
     - joget-1.0.0.tgz
     version: 1.0.0
-generated: "2024-03-14T10:46:35.390852441+08:00"
+generated: "2024-03-14T11:34:39.573780174+08:00"
