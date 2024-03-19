@@ -9,7 +9,7 @@ questions:
   label: Ingress Host
   type: string
   group: "Network Settings"
-- variable: pvc.storageClass
+- variable: pvc.storageClassName
   default: ""
   description: "Storage class for Persistent Volume."
   label: Storage Class
